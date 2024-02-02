@@ -32,6 +32,14 @@
     margin-top: 4rem;
     padding-top: 4rem;
 } */
+
+.card-img-top {
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover;
+    width: 100%;
+}
+
+
 #contact {
     padding-bottom: 4rem;
 }
@@ -41,6 +49,52 @@
 }
 
 /* services section css */
+#services {
+    padding-top: 75px; /* Adjust as needed */
+}
+
+.work-section {
+    border-bottom: 1px solid #ccc; /* Add a horizontal line between sections */
+    padding-bottom: 20px; /* Adjust as needed */
+}
+
+.work-content {
+    display: flex;
+    align-items: center;
+}
+
+.company-logo img {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.company-info {
+    flex-grow: 1;
+}
+
+.company-name {
+    font-size: 1.5rem;
+    margin-bottom: 5px; /* Adjust as needed */
+}
+
+.employment-length {
+    color: #666; /* Adjust as needed */
+}
+
+.job-info {
+    flex-grow: 2;
+}
+
+.job-title {
+    font-size: 1.2rem;
+    margin-bottom: 5px; /* Adjust as needed */
+}
+
+.job-description {
+    color: #666; /* Adjust as needed */
+}
+
 .servicesText.card {
     height: 280px;
     cursor: pointer;
@@ -59,6 +113,18 @@
 .servicesText:hover {
     border: 1px solid #008000;
 }
+/* portfolio section css */
+#portfolio {
+    padding-top: 50px; /* Adjust as needed */
+}
+
+
+/* contact section css */
+#contact {
+    padding-top: 50px; /* Adjust as needed */
+}
+
+
 
 /* social media icons styling */
 .social-icons {
@@ -71,8 +137,7 @@
 .fab {
     color: #000000;
 }
-/* footer styling */
+/* footer styling */ 
 #footer {
-    background-color: #808080;
     text-align: center;
 }
